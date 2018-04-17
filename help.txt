@@ -1,0 +1,31 @@
+Commands available:
+
+mcap
+	Description: Gives a pie chart for the market cap for all cryptocurrencies for a specific day.
+
+	Format:
+		Give a date parameter after mcap in the format of Month(Abr) Day, Year (e.g. Apr 07, 2018)
+
+OHLC
+	Description: Type in the name of a singular Cryptocurrency name to get the Open, High, Low, Close Diagram for that currency (e.g. 'Bitcoin')
+
+
+box
+	Description: Gives box plots for all data (of High Values per day) for specified cryptocurrencies (the high, low, median and IQR).
+
+	Format:
+		Type 'box' plus as many cryptocurrency names as you would like to get box plots for all of those cryptocurrencies
+		 (e.g. 'box Bitcoin Litecoin).
+
+line
+	Description: Gives line plots for the highs per day of the cryptocurrencies listed
+
+	Format:
+		Type 'line' plus as many cryptocurrencies as you would like to compare (e.g. 'line Ethereum Litecoin Ripple')
+
+volatility 
+	
+	Description: Gives volatility line graphs (High-Low per day) for the cryptocurrencies listed. 
+
+	Format:
+		Type 'volatility' plus as many cryptocurrencies as you would like to compare (e.g. 'volatility Bytecoin Ripple Bitcoin')
