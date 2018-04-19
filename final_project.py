@@ -548,8 +548,8 @@ def graph_volatility_list(crypto_name_list):
 
 
 #DATA SUCCESSFULLY INSERTED INTO DATABASE
-# init_dbs(data_per_day)
-# insert_crypto_data(data_per_day)
+init_dbs(data_per_day)
+insert_crypto_data(data_per_day)
 
 
 
